@@ -1,6 +1,12 @@
 = gitserved
 
-Description goes here.
+Browse historical revisions of a static website stored in a Git repository.
+
+Change your directory to a Git working directory and start the +gitserved+
+binary from within. You can then browse a historical version of the same site
+by specifying the revision within the URL, like:
+
+http://localhost:5678/index.html?rev=62ce8735
 
 == Note on Patches/Pull Requests
  
